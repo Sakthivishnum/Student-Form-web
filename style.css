@@ -1,0 +1,36 @@
+body{
+    background-image: url(assests/bg.jpg);
+}
+.form{
+    margin: 120px 500px 100px;
+    background-image: url(assests/bg.jpg);
+   backdrop-filter: blur(0px);
+   border-radius: 10%;
+   background-origin:transparent;
+}
+.form h1{
+    margin-left: 150px;
+    color: lightcyan;
+}
+.form h1::first-letter{
+    font-size:100px;
+}
+
+.form span{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 10px;
+}
+.form label{
+    color: lightcyan;
+}
+.form input:focus{
+    background-color:lightgrey;
+}
+.form button{
+   margin: 10px 50px 25px;
+}
+.form button:hover{
+    background-color:darkgrey;
+}
